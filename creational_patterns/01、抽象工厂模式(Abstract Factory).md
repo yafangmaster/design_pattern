@@ -14,9 +14,9 @@ AbstractProduct：抽象产品。这是一个产品家族，每一个具体工�
 
 Product：具体产品。
 
+```php
 
-
-TODO
+```
 
 
 
