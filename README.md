@@ -46,15 +46,19 @@
 
 创建型模式又分为对象创建型模式和类创建型模式。对象创建型模式处理对象的创建，类创建型模式处理类的创建。详细地说，对象创建型模式把对象创建的一部分推迟到另一个对象中，而类创建型模式将它对象的创建推迟到子类中。
 
-### [1、抽象工厂模式\(Abstract Factory\)](https://github.com/yafangmaster/design_pattern/blob/master/creational_patterns/01%E3%80%81%E6%8A%BD%E8%B1%A1%E5%B7%A5%E5%8E%82%E6%A8%A1%E5%BC%8F%28Abstract%20Factory%29.md)
+### [1、抽象工厂模式\(Abstract Factory\)](https://github.com/yafangmaster/design_pattern/blob/master/creational_patterns/01、抽象工厂模式%28Abstract Factory%29.md)
 
-### [2、建造者模式\(Builder\)](https://github.com/yafangmaster/design_pattern/blob/master/creational_patterns/02%E3%80%81%E5%BB%BA%E9%80%A0%E8%80%85%E6%A8%A1%E5%BC%8F%28Builder%29.md)
+### [2、建造者模式\(Builder\)](https://github.com/yafangmaster/design_pattern/blob/master/creational_patterns/02、建造者模式%28Builder%29.md)
 
 ### [3、工厂方法模式\(Factory Method\)](https://github.com/yafangmaster/design_pattern/commit/30fc6707054c3326c71b390efaf4f51a2db95337)
 
-### [4、原型模式\(Prototype\)](https://github.com/yafangmaster/design_pattern/blob/master/creational_patterns/04%E3%80%81%E5%8E%9F%E5%9E%8B%E6%A8%A1%E5%BC%8F%28Prototype%29.md)
+### [4、原型模式\(Prototype\)](https://github.com/yafangmaster/design_pattern/blob/master/creational_patterns/04、原型模式%28Prototype%29.md)
 
-### [5、单例模式\(Singleton\)](https://github.com/yafangmaster/design_pattern/blob/master/creational_patterns/05%E3%80%81%E5%8D%95%E4%BE%8B%E6%A8%A1%E5%BC%8F%28Singleton%29.md)
+### [5、单例模式\(Singleton\)](https://github.com/yafangmaster/design_pattern/blob/master/creational_patterns/05、单例模式%28Singleton%29.md)
+
+## 三、结构型模式
+
+结构型模式主要是用于处理类或者对象的组合，它描述了如何来类或者对象更好的组合起来，是从程序的结构上来解决模块之间的耦合问题。它主要包括适配器模式、桥接模式、组合模式、装饰模式、外观模式、享元模式、代理模式这个七个模式。
 
 
 
