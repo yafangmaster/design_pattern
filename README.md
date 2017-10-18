@@ -60,5 +60,19 @@
 
 结构型模式主要是用于处理类或者对象的组合，它描述了如何来类或者对象更好的组合起来，是从程序的结构上来解决模块之间的耦合问题。它主要包括适配器模式、桥接模式、组合模式、装饰模式、外观模式、享元模式、代理模式这个七个模式。
 
+### [1、适配器模式\(Adapter\)](https://github.com/yafangmaster/design_pattern/blob/master/structural_patterns/01%E3%80%81%E9%80%82%E9%85%8D%E5%99%A8%E6%A8%A1%E5%BC%8F%28Adapter%29.md)
+
+### [2、桥接模式\(Bridge\)](https://github.com/yafangmaster/design_pattern/blob/master/structural_patterns/02%E3%80%81%E6%A1%A5%E6%8E%A5%E6%A8%A1%E5%BC%8F%28Bridge%29.md)
+
+### [3、组合模式\(Composite\)](https://github.com/yafangmaster/design_pattern/blob/master/structural_patterns/03%E3%80%81%E7%BB%84%E5%90%88%E6%A8%A1%E5%BC%8F%28Composite%29.md)
+
+### [4、装饰者模式\(Decorator\)](https://github.com/yafangmaster/design_pattern/blob/master/structural_patterns/04%E3%80%81%E8%A3%85%E9%A5%B0%E8%80%85%E6%A8%A1%E5%BC%8F%28Decorator%29.md)
+
+### [5、外观模式\(Facade\)](https://github.com/yafangmaster/design_pattern/blob/master/structural_patterns/05%E3%80%81%E5%A4%96%E8%A7%82%E6%A8%A1%E5%BC%8F%28Facade%29.md)
+
+### [6、享元模式\(Flyweight\)](https://github.com/yafangmaster/design_pattern/blob/master/structural_patterns/06%E3%80%81%E4%BA%AB%E5%85%83%E6%A8%A1%E5%BC%8F%28Flyweight%29.md)
+
+### [7、代理模式\(Proxy\)](https://github.com/yafangmaster/design_pattern/blob/master/structural_patterns/07%E3%80%81%E4%BB%A3%E7%90%86%E6%A8%A1%E5%BC%8F%28Proxy%29.md)
+
 
 
