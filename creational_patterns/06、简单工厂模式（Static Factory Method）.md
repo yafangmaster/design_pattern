@@ -8,5 +8,39 @@
 * Product类：抽象产品类，定义产品子类的公共接口
 * ConcreteProduct 类：具体产品类，实现Product父类的接口功能，也可添加自定义的功能
 
+**示例代码：**
+
+```
+<?php 
+//简单工厂模式
+class Cat
+{
+  function __construct()
+  {
+      echo "I am Cat class <br>";
+  }
+}
+class Dog
+{
+  function __construct()
+  {
+      echo "I am Dog class <br>";
+  }
+}
+class Factory
+{
+  public static function CreateAnimal($name){
+      if ($name == 'cat') {
+          return new Cat();
+      } elseif ($name == 'dog') {
+          return new Dog();
+      }
+  }
+}
+
+$cat = Factory::CreateAnimal('cat');
+$dog = Factory::CreateAnimal('dog');
+```
+
 
 
