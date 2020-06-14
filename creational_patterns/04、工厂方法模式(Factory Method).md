@@ -17,7 +17,54 @@ Creator：抽象工厂。它实现了所有操纵产品的方法，但不实现�
 ConcreteCreator：具体工厂。制造产品的实际工厂。它负责创建一个或者多个具体产品，只有ConcreteCreator类知道如何创建这些产品。
 
 ```php
+<?php 
+interface Animal{
+  public function run();
+  public function say();
+}
+class Cat implements Animal
+{
+  public function run(){
+      echo "I ran slowly <br>";
+  }
+  public function say(){
+      echo "I am Cat class <br>";
+  }
+}
+class Dog implements Animal
+{
+  public function run(){
+      echo "I'm running fast <br>";
+  }
+  public function say(){
+      echo "I am Dog class <br>";
+  }
+}
+abstract class Factory{
+  abstract static function createAnimal();
+}
+class CatFactory extends Factory
+{
+  public static function createAnimal()
+  {
+      return new Cat();
+  }
+}
+class DogFactory extends Factory
+{
+  public static function createAnimal()
+  {
+      return new Dog();
+  }
+}
 
+$cat = CatFactory::createAnimal();
+$cat->say();
+$cat->run();
+
+$dog = DogFactory::createAnimal();
+$dog->say();
+$dog->run();
 ```
 
 
