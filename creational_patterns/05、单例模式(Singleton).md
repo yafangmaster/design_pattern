@@ -66,12 +66,12 @@ class Singleton{
 //$singleton1 = new Singleton();
 
 // 下面将得到Example类的单例对象
-$$singleton1 = Singleton::getInstance();
-$$singleton2 = Singleton::getInstance();
-$$singleton2->test();
+$singleton1 = Singleton::getInstance();
+$singleton2 = Singleton::getInstance();
+$singleton2->test();
 
 // 复制对象将导致一个E_USER_ERROR.
-//$singleton1_clone = clone $$singleton1;
+//$singleton1_clone = clone $singleton1;
 ```
 
 
