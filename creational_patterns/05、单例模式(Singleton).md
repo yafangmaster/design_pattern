@@ -33,7 +33,7 @@ Singleton：单例。
  * 使用单例模式生成一个对象后，该对象可以被其它众多对象所使用。
  */
 
-class man{
+class Singleton{
 
     //保存例实例在此属性中
     private static $_instance;
@@ -48,9 +48,8 @@ class man{
         var_dump(isset(self::$_instance));
         if(!isset(self::$_instance)){
             self::$_instance = new self();
-        }else{
-            return self::$_instance;
         }
+        return self::$_instance;
     }
 
     //阻止用户复制对象实例
@@ -64,15 +63,15 @@ class man{
 }
 
 // 这个写法会出错，因为构造方法被声明为private
-//$man = new man();
+//$singleton1 = new Singleton();
 
 // 下面将得到Example类的单例对象
-$test = man::getInstance();
-$test = man::getInstance();
-$test->test();
+$$singleton1 = Singleton::getInstance();
+$$singleton2 = Singleton::getInstance();
+$$singleton2->test();
 
 // 复制对象将导致一个E_USER_ERROR.
-//$test_clone = clone $test;
+//$singleton1_clone = clone $$singleton1;
 ```
 
 
